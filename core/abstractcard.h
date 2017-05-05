@@ -11,7 +11,7 @@ public:
 	~AbstractCard();
 public:
 
-	enum Suit    //花色  
+	enum Suit   
 	{
 		SpadeSuit,
 		ClubSuit, 
@@ -21,25 +21,25 @@ public:
 	};
 	enum Color 
 	{ 
-		RedColor,  //
+		RedColor,  
 		BlackColor, 
 		UnknowColor = -1 
 	};
-	enum HandMethod //处理方法  可能是弃牌，还是与别人拼点，交换什么的
+	enum HandMethod 
 	{
 		UseMethod, 
 		ResponseMethod, 
 		DiscardMethod, 
 		RecastMethod, 
 		PindianMethod, 
-		UnknowMethod = -1
+		UnknowMethod = -1ss
 	};
 	enum CardType 
 	{ 
-		SkillType, 		//人物技能
-		BasicType, 		//基础牌，杀，闪，酒，桃
-		TrickType,   	//技能 闪电，乐不思蜀，兵粮寸断
-		EquipType,  	//装备
+		SkillType, 		
+		BasicType, 		
+		TrickType,   	
+		EquipType,  	
 		UnknowType = -1
 	};
 	inline Suit cardSuit() const

@@ -1,6 +1,7 @@
 #include "abstractcard.h"
 
-AbstractCard(int nId, int nNumber, std::string sName):m_nId(nId), m_nNumber(nNumber), m_sName(sName)
+AbstractCard(int nId, int nNumber, std::string sName)
+	:m_nId(nId), m_nNumber(nNumber), m_sName(sName)
 {
 
 }
